@@ -82,21 +82,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-4. Abre tu navegador en `http://localhost:5173`
-
-## 👤 Credenciales de Prueba
-
-La aplicación usa un sistema de autenticación mock con los siguientes usuarios:
-
-**Usuario 1:**
-- Email: `juan@fotohogar.com`
-- Contraseña: `123456`
-
-**Usuario 2:**
-- Email: `maria@fotohogar.com`
-- Contraseña: `123456`
-
 ## 📝 Funcionalidades Implementadas
 
 ### Login
@@ -125,39 +110,6 @@ La aplicación usa un sistema de autenticación mock con los siguientes usuarios
 - **Dropdown Menu**: Menús desplegables
 - **Label**: Etiquetas de formulario
 - **Separator**: Líneas divisorias
-
-## 🎨 Personalización
-
-### Colores
-Los colores se configuran en `src/index.css` usando variables CSS:
-- Modo claro: Tonos suaves y limpios
-- Modo oscuro: Contraste óptimo para baja iluminación
-
-### Componentes
-Todos los componentes UI están en `src/components/ui/` y pueden personalizarse fácilmente.
-
-## 📦 Scripts Disponibles
-
-```bash
-npm run dev      # Inicia servidor de desarrollo
-npm run build    # Construye para producción
-npm run preview  # Vista previa de build
-npm run lint     # Ejecuta ESLint
-```
-
-## 🔮 Próximos Pasos (Backend)
-
-Esta es la versión frontend con datos mock. Para conectar con un backend real:
-
-1. Reemplazar las funciones en `services/api.js` con llamadas fetch/axios reales
-2. Implementar subida real de archivos (FormData)
-3. Agregar gestión de permisos y roles
-4. Implementar invitaciones a álbumes
-5. Agregar búsqueda y filtros avanzados
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 ## 👨‍💻 Desarrollo
 
