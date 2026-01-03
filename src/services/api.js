@@ -12,18 +12,18 @@ const delay = (ms = 500) => new Promise(resolve => setTimeout(resolve, ms));
 const MOCK_USERS = [
   {
     id: "1",
-    name: "Juan",
-    lastname: "Pérez",
-    email: "juan@fotohogar.com",
+    name: "Jherson",
+    lastname: "Calderon",
+    email: "jherson@fotohogar.com",
     // Password: "123456" hasheado con SHA-256
     password: "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jherson",
   },
   {
     id: "2",
-    name: "María",
+    name: "Solange",
     lastname: "García",
-    email: "maria@fotohogar.com",
+    email: "solange@fotohogar.com",
     // Password: "123456" hasheado con SHA-256
     password: "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",

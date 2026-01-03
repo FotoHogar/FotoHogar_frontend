@@ -116,8 +116,8 @@ function Login() {
             <div className="mt-6 p-4 rounded-lg bg-muted">
               <p className="text-sm font-semibold mb-2">Credenciales de prueba:</p>
               <div className="text-xs space-y-1 text-muted-foreground">
-                <p>Email: juan@fotohogar.com</p>
-                <p>Email: maria@fotohogar.com</p>
+                <p>Email: jherson@fotohogar.com</p>
+                <p>Email: solange@fotohogar.com</p>
                 <p>Contraseña: 123456</p>
               </div>
             </div>
